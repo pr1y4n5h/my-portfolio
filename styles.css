@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --color-one: #2f2e41
+}
+
+.priyansh {
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    color: white;
+}
+
+.blog {
+    background-color: cyan;
+    
+}
+
+
+article .link{
+
+    background-color: tomato;
+    color: white;
+    padding-left: 5rem 3rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.nav {
+
+    background-color:#2F2E41;
+    padding: 1rem;
+    display:flex;
+    flex-direction:row;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.nav .link {
+    color: white;
+}
+
+footer .link {
+    color: white;
+    padding-left: 1rem;
+    background-color: tomato;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.nav .active-link {
+
+    font-weight: bold;
+    background-color: orangered;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    max-width: 800px;
+    margin:auto;
+    background-color:white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+img {
+    max-width: 50%;
+    padding-left: 15rem;
+    margin: auto;
+}
+
+
+section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+hr {
+    margin: 0rem 2rem;
+}
+
+main {
+    background-color: #1FB7FB;
+    border-top-left-radius: 50rem
+}
+
+.no-bullets {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 15rem;
+}
+
+
+.inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+.article-link{
+    text-decoration: none;
+    font-weight: bold; 
+    color: orangered;
+}
+
+.no-bullets-footer {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 13rem;
+}
+
+.inline-item-footer {
+    display:inline-table;
+    padding-right: 3rem;
+}
+
+.link-hcl {
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.nav .link {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+
+footer {
+
+    background-color:#2F2E41;
+    color: white;
+    display:flex;
+    font-family: 'Lobster', cursive;
+    font-size:medium;
+    padding: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--color-one)
+
+}
+
+h4 {
+    padding-left: 20rem;
+}
