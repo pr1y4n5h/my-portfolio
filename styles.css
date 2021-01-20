@@ -28,12 +28,8 @@ article .link{
 }
 
 .nav {
-
     background-color:#2F2E41;
-    padding: 1rem;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-evenly;
+    padding-left: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 
@@ -42,6 +38,7 @@ article .link{
 .nav .link {
     color: white;
 }
+
 
 footer .link {
     color: white;
@@ -63,14 +60,8 @@ footer .link {
 
 body {
     font-family: 'Balsamiq Sans', cursive;
-    max-width: auto;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color:white;
-    padding-left: 1rem;
-    padding-right: 1rem;
+
+    background-color:#9bddfa;;
 }
 
 
@@ -82,8 +73,8 @@ img {
 
 
 section {
-    padding-left: 2rem;
-    padding-right: 2rem;
+
+    text-align: center;
 }
 
 hr {
@@ -94,22 +85,36 @@ hr {
 
 main {
     background-color: #1FB7FB;
-    border-top-left-radius: 50rem
+    border-top-left-radius: 150rem;
+    
+    
+    ;
+}
+
+.inline-item {
+    display: inline;
+    padding: 0rem rem;
+
 }
 
 .no-bullets {
     list-style: none;
-    display:flex;
-    flex-direction: row;
-    padding-left: 5rem;
-}
-
-
-.inline-item {
-    display: inline;
-    padding: 0rem 0.5rem;
+    text-align: end;
 
 }
+
+
+
+.no-bullets-footer {
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.inline-item-footer {
+    display:inline-table;
+    padding: 1rem 2rem;
+}
+
 
 .article-link{
     text-decoration: none;
@@ -117,17 +122,12 @@ main {
     color: orangered;
 }
 
-.no-bullets-footer {
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    padding-left: 3rem;
+article {
+    
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
-.inline-item-footer {
-    display:inline-table;
-    padding: 1rem 2rem;
-}
 
 .link-hcl {
     color:blue;
