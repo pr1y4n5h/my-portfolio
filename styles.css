@@ -1,17 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
-:root {
-    --color-one: #2f2e41
-}
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 .priyansh {
     font-family: 'Lobster', cursive;
     font-size: xx-large;
-    margin: 3rem;
-
     color: white;
     text-decoration: none;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+
+    
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin:0;
+
 }
 
 .blog {
@@ -19,43 +27,57 @@
     
 }
 
+.blogli {
+    color: red;
+    font-weight: 800;
+}
+
+.bloglink {
+    text-decoration: none;
+    color: green
+    ;
+}
+
 
 section .link{
 
     background-color: tomato;
     color: white;
-    padding-left: 5rem 3rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    text-align: center;
+    justify-content: space-evenly;
 }
 
-.nav {
+.section-link{
+    text-decoration: none;
+    font-weight: bold; 
+    color: blue;
+}
+
+
+nav {
     background-color:#2F2E41;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1rem;
-
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    position: relative;
+    bottom: 15px;
     
     
-
-}
-
-.nav .link {
-    color: white;
 }
 
 
 footer .link {
-    color: white;
+    color:black;
     padding-left: 1rem;
-    background-color: tomato;
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    background-color:white;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
 
+}
+
+small {
+    color: grey;
 }
 
 .nav .active-link {
@@ -70,8 +92,8 @@ footer .link {
 body {
     font-family: 'Balsamiq Sans', cursive;
     background-color:#1FB7FB;
-    max-width: 100%;;
-    margin-top:0rem;
+    margin: auto;
+    
 }
 
 
@@ -80,26 +102,43 @@ img {
     display:block;
     margin: auto;
     max-width: 100%;
-    height: auto;
+    height: 25rem;
+    
 }
-
-
 
 
 section {
-
-    text-align: center;
-    padding:2.5rem;
+    padding:1.5rem;
     max-width: auto;
-    height: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: #E6E6E6;
+    background-color:#eaf5f9;
     border-style:groove;
     border-radius: 2rem;
-    
-    
+    text-align: justify;
 }
+
+header {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    color: #FF4500;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    bottom: 1rem;
+}
+
+h1 {
+    
+    padding-bottom: 2rem;
+    margin:auto;
+    max-width: 100%;
+}
+
+h2 {
+    padding-top: 1rem;
+    margin:auto;
+    max-width: 100%;
+}
+
 
 hr {
     margin: 0rem 3rem;
@@ -107,26 +146,24 @@ hr {
 
 
 main {
-    background-color: white;
+    background-color: #cfeefc;
     border-top-left-radius: 200rem;
     border-top-right-radius: 200rem;
-    border-style:double;
-    
-    
-    ;
+    border-width: 5rem;
 }
 
 .inline-item {
-    display: inline;
-    padding: 0rem;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-right: 2rem;
 
 }
 
 .no-bullets {
+    display:block;
     list-style: none;
-    text-align: end;
-    padding:0rem;
-
+    text-align: right;
+    max-width: auto;
 }
 
 
@@ -142,15 +179,12 @@ main {
 }
 
 
-.section-link{
-    text-decoration: none;
-    font-weight: bold; 
-    color: orangered;
-}
+
 
 section {
-    max-width: 100;
-    text-align: justify;
+    
+    max-width: 800px;
+    margin: auto;
     
 }
 
@@ -169,6 +203,11 @@ section {
 .link {
     text-decoration: none;
     padding:0.5rem 1rem;
+    display: inline-block;
+}
+
+.linkfooter {
+
 }
 
 footer {
@@ -186,21 +225,16 @@ footer {
 }
 
 
-h1 {
-    text-align: center;
-    padding: 1rem;
-    color: var(--color-one)
 
-}
 
 h4 {
     text-align: center;
-    padding: 0.5rem;
 }
 
 h3 {
     font-family: 'Mali', cursive;
-    color: red;
+    color:green;
+    font-weight: 800;
     padding-right: 1rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
