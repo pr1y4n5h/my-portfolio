@@ -39,13 +39,22 @@ ul {
 
 
 section .link{
-
     background-color: tomato;
     color: white;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    justify-content: space-evenly;
+    
 }
+
+section .link-sec{
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
 
 .section-link{
     text-decoration: none;
@@ -110,7 +119,7 @@ img {
 section {
     padding:1.5rem;
     max-width: auto;
-    background-color:#eaf5f9;
+    background-color: #eaf5f9;
     border-style:groove;
     border-radius: 2rem;
     text-align: justify;
