@@ -13,6 +13,10 @@
 
 }
 
+.t-stack {
+    color: green;
+}
+
 
 ul {
     list-style: none; 
@@ -236,7 +240,8 @@ h4 {
 h3 {
     font-family: 'Mali', cursive;
     color:green;
-    font-weight: 800;
+    font-weight: 1000;
+    font-size:x-large;
     padding-right: 1rem;
     padding-top: 1rem;
 }
